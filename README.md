@@ -22,18 +22,37 @@ This document will continue to be updated :)
 x64 is a folder that mainly contains data about AI in Yolo_mark.
 <pre>
 .
-└── Release
-    ├── data
-    │   ├── img
-    │   │   ├── {SKIP - SO MANY FILES ON THIS DIRECTORY...}
-    │   ├── obj.data
-    │   ├── obj.names
-    │   └── train.txt
-    ├── train_obj.cmd
-    ├── yolo-obj.cfg
-    └── yolo_mark.cmd
+├── LICENSE.fuck
+├── README.md
+├── detector.py
+├── notebook
+│   └── tattoo_detector.ipynb
+└── x64
+    └── Release
+        ├── data
+        │   ├── img
+        │   │   ├── {SKIP - SO MANY FILES ON THIS DIRECTORY...}
+        │   ├── obj.data
+        │   ├── obj.names
+        │   └── train.txt
+        ├── train_obj.cmd
+        ├── yolo-obj.cfg
+        └── yolo_mark.cmd
 
-3 directories, 625 files
+5 directories, 629 files
 </pre>
 The data was made, with Yolo_mark where he wanted to judge the authenticity of the label people. , Install Yolo_mark to see the labeling deleted x64 from Yolo_mark. Put it in the x64 folder. <br> <br>
 Since it has not been released yet, we will post a download link after all Colab weight calculations have been completed.
+
+# How many Classes?
+First we have seven classes. The first thing we did was to go through one class and one "tattoo" class. The result was not good. To compensate for this, we tried to add half. The types of classes are listed below.
+<ul>
+    <li> chest_tattoo </li>
+    <li> leg_tattoo </li>
+    <li> arm_tattoo </li>
+    <li> back_tattoo </li>
+    <li> neck_tattoo </li>
+    <li> stomach_tattoo </li>
+    <li> etc_tattoo </li>
+</ul>
+The order of classes should be as above. This can cause errors in the labeled data.
