@@ -8,7 +8,7 @@ This project uses <a href="https://github.com/pjreddie/darknet">Darknet</a> to b
 </ul>
 
 # How to use?
-It will be less later because there is not even executable code yet :thinking:
+Code Requires some filtering for the execution
 
 # How it works?
 The first thing we need is data about a person's tattoo. Data on this is currently available on Instagram and Pinterest. Then labeling with <a href="https://github.com/AlexeyAB/Yolo_mark">Yolo_mark.</a> <br>
